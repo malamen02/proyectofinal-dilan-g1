@@ -1,0 +1,474 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>kronixmagic</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <!-- css personalizado -->
+   <link rel="stylesheet" href="css/style.css">
+
+<head>
+<body>
+
+    
+<!-- menu y el logo -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" id="menu">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="imagenes/kronisx magii.png" alt="" id="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#nosotros">nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            servicios
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#pago">Pago en linea</a></li>
+            <li><a class="dropdown-item" href="#domicilios">Domicilios</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            productos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#granizados">granizados de yogurt</a></li>
+            <li><a class="dropdown-item" href="#micheladas">micheledas saborizadas</a></li>
+            <li><a class="dropdown-item" href="#cervezas">cervesas smirnoff</a></li>          
+            <li><a class="dropdown-item" href="#shots">shots saborizados</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">contacto</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- slider o carousel -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/imagenes/granizados.webp" class="d-block w-100 alto-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>cocteles kronixmagic</h5>
+        <p>cocteles frutales</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/imagenes/licor1.jpg" class="d-block w-100 alto-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>licores kronixmagic</h5>
+        <p>tequilas</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/imagenes/micheladas.jpg" class="d-block w-100 alto-img" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>micheledas kronixmagic</h5>
+        <p>saborizadas y envenenadas</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+   <!-- seccion novedades -->
+   <div class="row row-cols-1 row-cols-md-3 g-4" id="novedades">
+    <h2 class="titulo">Novedades</h2>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/cóctel-alcohólico-con-zumo-de-piña-vodka-mango-licor-hielo-bebida-larga-o-cola-verano-fondo-oscuro-tropical-fría-hojas-palma-y-275654592.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">coctel de piña</h5>
+          <p class="card-text">Una mezcla de piña fresca con vino blanco y licor Maraschino. Este coctel es ligeramente burbujeante debido al agua mineral..</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/chamito.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">coctel de sky</h5>
+          <p class="card-text">El cóctel 'Blue Sky' es uno de los más sencillos de elaborar. A base de ron y Sprite, te encantará su color azulado. Con este vídeo aprenderás a preparar esta refrescante bebida..</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/coctel.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">margarita </h5>
+          <p class="card-text">La margarita es un cóctel compuesto por tequila, triple seco y jugo de lima o limón. A menudo se sirve con sal en el borde de la copa. La bebida se sirve sacudiendo el hielo (con hielo), mezclado con hielo (margarita frozen), o sin hielo (hacia arriba). Aunque se ha vuelto aceptable servir una margarita en una amplia variedad de recipientes de vidrio, que van desde cócteles y copas de vino y también grandes goletas, la bebida se sirve tradicionalmente en el vaso de margarita del mismo nombre, una variante de diámetro escalonada de un cóctel vidrio o copa de champán, algo parecido a un sombrero invertido..</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- seccion granizados -->
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="granizados">
+    <h2 class="titulo">granizados</h2>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/yoguka.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GRANIZADO DE YOGUR</h5>
+          <p class="card-text">GRANIZADO DE YOGUR (Receta facilitada por Merce Carbo)INGREDIENTES:1 litro de leche desnatada4 yogures naturales sin azúcar (reservar los vasitos)150 g de azúcarUnas gotas de limónUnas cucharadas de mermelada a nuestro gusto (opcional)PREPARACIÓN:1-. Ponemos en el vaso del Thermomix® la leche con el azúcar y programamos 5 minutos, 90 grados, velocidad 3.2-. Sacamos el vaso del Thermomix® , para que la mezcla se enfríe más ràpidamente.Una vez templado (aprox. a 37 grados), añadimos los yogures y las gotas de limón y batimos 10 segundos a velocidad 3.3-. Ponemos parte de la mezcla en los vasitos de los yogures, tapamos con film trasparente y los introducimos en el congelador. El resto de la mezcla la ponemos en un tupper grande y también los intoducimos en el congelador.4.- Una vez esté congelado el granizado, lo ponemos en el vaso del Thermomix® y trituramos velocidad progresiva 5-7-10 unos 30 segundos o hasta que esté bien triturado.Al servir, podemos poner en el fondo del vaso una cucharada de mermelada y encima el granizado.Nota: Si tenemos más vasitos de yogures, pondremos todo el granizado en ellos, si no, mejor poner el resto de la mezcla en un tupper grande, de forma que ses más fácil despegar el granizado una vez congelado.Se puede poner sacarina líquida u otro edulcolorate y utilizar yogures desnatados por lo de la operación bikini.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/sodas saborizadas.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">micheladas saborizadas</h5>
+          <p class="card-text">¿Qué son las sodas saborizadas o micheladas? Las sodas saborizadas son bebidas gaseosas o agua carbonatadas que contienen una gran variedad de sabores. Estas bebidas se caracterizan por su sabor dulce y por la sensación de efervescencia que generan en la boca.
+            .</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/cervezas emirnoff.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">cervezas smirnoff </h5>
+          <p class="card-text">Elaborado por la destilería homónima, fundada por Piotr Arsenieyevich Smirnov en 1864. Cuando Piotr falleció, en 1910, recogió el legado su tercer hijo Vladimir Smirnov, que llevó a la empresa a lo más alto.
+            Actualmente es el vodka más vendido en todo el mundo, con mercado en más de 130 países, y pertenece a la multinacional Diageo.1​
+            En 2003 obtuvo la medalla de oro en la competencia mundial de bebidas espirituosas celebrada en San Francisco.2​
+            Se distribuye en botellas de 750 cc y 1000 cc con una graduación de alcohol del 37.5%.
+            .</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<!-- seccion de pago -->
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="pago">
+    <h2 class="titulo">pagos online</h2>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/nqu.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">nequi</h5>
+          <p class="card-text">3209543772.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">pagos</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/thumbnail(2).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">bancolombia</h5>
+          <p class="card-text">031456788.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">pagos</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/pp.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">3209543772.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">pagos</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--seccion domicilio  -->
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="domicilios">
+    <h2 class="titulo">Domicilios</h2>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/rappi.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">rappie</h5>
+          <p class="card-text">pide en rappi la informacion de pedido.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Domicilios</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="imagenes/motico.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">contacto de kronixmagic</h5>
+          <p class="card-text">3023166570.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Domicilios</a></small>
+        </div>
+      </div>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- videsos -->
+  <div class="row row-cols-1 row-cols-md-3 g-4" id="videos">
+    <h2 class="titulo">videos</h2>
+    <div class="col">
+      <div class="card h-100">
+        <iframe width="400" height="515" src="https://www.youtube.com/embed/kmeI10wkf7U" title="5 cocteles con RON más FAMOSOS del mundo 🍹" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="card-body">
+          <h5 class="card-title">coctel de piña</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <iframe width="400" height="515" src="https://www.youtube.com/embed/EmFFCTT_igg" title="🐾¿Cómo Preparar EL PANTERA ROSA? 🌸 | COCTEL PANTERA ROSA | Cremoso y Delicioso | Drinkiando" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <div class="card-body">
+          <h5 class="card-title">coctel de sky</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <iframe width="400" height="515" src="https://www.youtube.com/embed/yCFuHdL3jPw" title="3 cocteles con TEQUILA más FAMOSOS del mundo 🍹" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="card-body">
+          <h5 class="card-title">margarita </h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="http://" target="_blank" class="btn btn-danger">Comprar</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- asesorias -->
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- asesorias -->
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      coctel del diablo
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      coctel de BAILEYS 
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+      
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       coctel de frutas
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+      <img src="/Images/tipos de libros.jpg" alt="">
+      <a href="https://wa.me/3004527462?text=buenisss%0A" target="blank" class="btn btn-outline-dark"><i
+        class="fa-brands fa-whatsapp"></i>Para mas informacion dar click aqui</a>
+    </div>
+    </div>
+   
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Asesoria en importación de libros
+      </button>
+    </h2>
+   
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+      <img src="/Images/importacion de libros.jpg" alt="">
+      <a href="https://wa.me/3004527462?text=buenisss%0A" target="blank" class="btn btn-outline-dark"><i
+        class="fa-brands fa-whatsapp"></i>Para mas informacion dar click aqui</a>
+    </div>
+   
+  </div>
+</div>
+
+  <!-- footer - BEM en html y css -->
+<footer id="page-footer">
+  <div class="ftcontainer">
+    <div class="footer__menu">
+      <figure>
+        <img src="imagenes/kronisx magii.png" alt="" class="footer__logo">
+      </figure>
+      <p class="ft-social-row">
+        <a class="ft-social" href="https://wa.me/3105188168?text=Atenci%C3%B3n%20al%20cliente!!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a class="ft-social" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a class="ft-social" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a class="ft-social" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      </p>
+    </div>
+    <!-- horarios -->
+    <div class="footer__menu">
+      <h4 class="footer__title">Horarios</h4>
+      <span class="footer__info">
+        Lunes a Viernes: 4:30 pm a 12:00 am | Sábados: 4:00 pm a 2:00 am
+      </span>
+    </div>
+    <!-- Enlaces -->
+    <div class="footer__menu">
+      <h4 class="footer__title">Enlaces</h4>
+      <ul class="ft-link">
+        <li class="footer__link">
+          <a href="#" target="_blank"  class="ft-social">Inicio</a>
+        </li>
+        <li class="footer__link">
+          <a href="nosotros.html" target="_blank"  class="ft-social">Nosotros</a>
+        </li>
+        <li class="footer__link">
+          <a href="condiciones.html" target="_blank"  class="ft-social">Términos y condiciones</a>
+        </li>
+      </ul>
+    </div>
+    <!-- contactos -->
+    <div class="footer__menu">
+      <h4 class="footer__title">Contactos</h4>
+      <p class="footer__info">
+        <i class="fa-solid fa-envelope"></i>
+        Email: dylantabares513@gmail.com
+      </p>
+      <p class="footer__info">
+        <i class="fa-solid fa-mobile"></i>
+        Celular: 3209543772
+      </p>
+      <p class="footer__info">
+        <i class="fa-solid fa-location-dot"></i>
+        Dirección: carrera 74c# 89a 
+      </p>
+    </div>
+  </div>
+  <div class="footer-credits">
+    &copy; 2023. kronixmagic - All rights reserved - Desing: <a href="#" target="_blank">dylan tabares</a>
+  </div>
+
+</footer>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+
+</html>
+<html>
